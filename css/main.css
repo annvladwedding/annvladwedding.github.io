@@ -1,0 +1,194 @@
+body {
+	animation: fadein 2s;
+}
+
+header {
+	/* 
+	background-image: url('https://sun1.is74.userapi.com/c206828/v206828873/1623e5/YEB5pmpTmAw.jpg');
+	*/
+	background-image: url('../img/header_blue.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	color: #fff;
+	text-align: center;
+	height: 100vh;
+}
+
+header nav {
+	padding-top: 5rem;
+}
+
+header nav a {
+	background: #fff;
+	color: black;
+	border-radius: 15px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	border: 1px solid #fff;
+	margin: 0 10px;
+}
+
+header .info {
+	padding: 1rem;
+}
+
+header .info p {
+	font-size: 1rem;
+}
+
+header h1 {
+	padding: 0;
+	margin: 0;
+	padding-top: 15rem;
+	font-weight: 100;
+	font-size: 3rem;
+
+}
+
+
+
+#about {
+	text-align: center;
+	padding: 80px 0 40px 0;
+}
+
+#about .img img {
+	width: 300px;
+	margin-bottom: 60px;
+}
+
+#about .main_info {
+	margin: 0 auto;
+	max-width: 600px;
+	box-sizing: border-box;
+}
+
+#about .main_info p {
+	font-size: 1.5rem;
+}
+
+#about .main_info p span {
+	font-weight: bold;
+}
+
+#about .main_info p.schedule {
+	margin: 0;
+}
+
+#about .main_info hr {
+	border: none;
+	background: black;
+	color: black;
+	margin: 50px auto;
+	max-width: 150px;
+	height: 3px;
+}
+
+
+
+
+#voting {
+	background: #5C87AD;
+	margin-top: 30px;
+	padding: 80px 0;
+	color: #fff;
+	text-align: center;
+}
+
+#voting .text {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+#voting .text h2 {
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+#voting .button {
+	margin-top: 50px;
+}
+
+#voting .button a {
+	border-radius: 20px;
+	background: #fff;
+	color: black;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+}
+
+
+#voting .button a:hover, #voting .button a:focus {
+	background: none;
+	color: #fff;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+
+
+footer {
+	padding: 40px 0;
+	text-align: center;
+}
+
+footer h6 {
+	font-weight: 100;
+	font-size: 1.5rem;
+}
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+@media screen and (max-width: 330px) {
+	#about .img img {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#voting .text h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	header h1 {
+		font-size: 2rem;
+	}
+}
